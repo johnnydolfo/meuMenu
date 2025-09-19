@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ichome"
+            android:title="Início" />
+
+        <item
+            android:id="@+id/nav_refri"
+            android:icon="@drawable/icrefri"
+            android:title="Refrigerantes" />
+
+        <item
+            android:id="@+id/nav_water"
+            android:icon="@drawable/icwater"
+            android:title="Águas" />
+
+        <item
+            android:id="@+id/nav_energy"
+            android:icon="@drawable/icenergy"
+            android:title="Bebidas Energéticas" />
+
+        <item
+            android:id="@+id/nav_juice"
+            android:icon="@drawable/icjuice"
+            android:title="Sucos" />
+
+        <item
+            android:id="@+id/nav_tea"
+            android:icon="@drawable/ictea"
+            android:title="Chás" />
+
+    </group>
+</menu>
